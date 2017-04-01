@@ -1,0 +1,41 @@
+
+**** 03/15/17 23:27:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-rect_imp"  [ D:\metrology\rc_int_circuit\rc_int_circuit-schematic1-rect_imp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "rc_int_circuit-schematic1-rect_imp.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Programs\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3u 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\rc_int_circuit-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING rc_int_circuit-SCHEMATIC1.net ****
+* source RC_INT_CIRCUIT
+R_R1         N00198 N00133  1k  
+C_C1         0 N00133  1n  
+V_V1         N00198 0   STIMULUS=u1
+
+**** RESUMING rc_int_circuit-schematic1-rect_imp.sim.cir ****
+.END
+----$
+ERROR -- No ANALOG .STIMULUS definition found for: "u1"
+
+
