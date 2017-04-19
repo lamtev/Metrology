@@ -1,0 +1,24 @@
+language: generic
+
+sudo: required
+
+dist: trusty
+
+services:
+  - docker
+  
+install:
+  - docker pull lamtev/latex:full
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR:/metrology lamtev/latex:full /bin/bash -c " cd metrology/power_regulator/report && pdflatex report.tex && pdflatex report.tex "
+  - sudo chmod 777 ${TRAVIS_BUILD_DIR}/power_regulator/report/report.pdf
+  
+deploy:
+  provider: releases
+  api_key: "$GITHUB_DEPLOY_TOKEN"
+  file: 
+    - ${TRAVIS_BUILD_DIR}/power_regulator/report/report.pdf
+  skip_cleanup: true
+  on:
+    tags: true
