@@ -1,0 +1,84 @@
+
+**** 05/04/17 09:47:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-220sin50"  [ D:\METROLOGY\POWER_REGULATOR\ORCAD\pow_reg-SCHEMATIC1-220sin50.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "pow_reg-SCHEMATIC1-220sin50.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+.STMLIB ".\POW_REG.stl" 
+* From [PSPICE NETLIST] section of C:\Programs\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 60ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\pow_reg-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING pow_reg-SCHEMATIC1.net ****
+* source POW_REG
+D_D1         N00911 N00997 MUR160 
+D_D6         N01226 N01564 D1N758 
+R_R3         N01226 N02910  2k  
+D_D2         N01226 N00949 MUR160 
+R_R4         N02910 N01564  2k  
+D_D3         N00949 N00997 MUR160 
+R_R5         N02460 N03658  3k  
+D_D4         N01226 N00911 MUR160 
+R_R1         N01226 N01397  100  
+X_X1         N00997 N01397 N01226 MAC228A6
+R_R2         N01564 N00997  30k  
+Q_Q1         N02944 N02910 N02460 Q2N4250
+V_V1         N00911 M_UN0001   STIMULUS=sin
+Q_Q2         N02910 N02944 N01397 QBC846/PLP 
+C_C1         N02460 N01226  100n  
+R_R6         N03658 N01564  100k  
+
+**** RESUMING pow_reg-SCHEMATIC1-220sin50.sim.cir ****
+.END
+* D:\METROLOGY\POWER_REGULATOR\ORCAD\POW_REG.stl written on Thu May 04 09:26:46 2017
+* by Stimulus Editor -- Serial Number: 1 -- Version 9.2
+;!Stimulus Get
+;! sin Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 60ms
+;!Yrange -400 400
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS sin SIN( 0 220 50 0 0 0 )
+
+ERROR -- Node N00911 is floating
+ERROR -- Node N00997 is floating
+ERROR -- Node N01226 is floating
+ERROR -- Node N01564 is floating
+ERROR -- Node N02910 is floating
+ERROR -- Node N00949 is floating
+ERROR -- Node N02460 is floating
+ERROR -- Node N03658 is floating
+ERROR -- Node N01397 is floating
+ERROR -- Node N02944 is floating
+ERROR -- Node M_UN0001 is floating
+ERROR -- Node X_X1.X1.MT20 is floating
+ERROR -- Node X_X1.X1.MT22 is floating
+ERROR -- Node X_X1.X1.MT23 is floating
+ERROR -- Node X_X1.X1.MT21 is floating
+ERROR -- Node X_X1.X1.dvdt1 is floating
+ERROR -- Node X_X1.X1.dvdt2 is floating
+ERROR -- Node X_X1.X1.gate1 is floating
+ERROR -- Node X_X1.X1.gate2 is floating

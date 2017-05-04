@@ -1,0 +1,18 @@
+** Profile: "SCHEMATIC1-sin220-50"  [ D:\metrology\power_regulator\orcad\schema-schematic1-sin220-50.sim ] 
+
+** Creating circuit file "schema-schematic1-sin220-50.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+.STMLIB ".\SCHEMA.stl" 
+* From [PSPICE NETLIST] section of C:\Programs\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 60ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\schema-SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,35 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\pow_reg.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\pow_reg.dsn")
+      (Path "Design Resources" ".\pow_reg.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\pow_reg.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 313"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 725 52 404")
+        (Scroll "404 62")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\POW_REG.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
