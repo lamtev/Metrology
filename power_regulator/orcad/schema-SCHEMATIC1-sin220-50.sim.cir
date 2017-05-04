@@ -10,7 +10,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 60ms 0 
+.TRAN  0 20ms 0 100us 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\schema-SCHEMATIC1.net" 
 
