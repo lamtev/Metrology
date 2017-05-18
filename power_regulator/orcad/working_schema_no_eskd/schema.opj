@@ -21,9 +21,12 @@
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
     (Folder "Include Files"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (File ".\SCHEMA.stl"
+        (DisplayName ".\SCHEMA.stl")
+        (Type "PSpiceLibrary"))
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
