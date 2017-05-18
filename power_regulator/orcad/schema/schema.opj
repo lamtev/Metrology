@@ -7,10 +7,18 @@
     (File ".\schema.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\schema-schematic1.net"
+      (Type "Report")))
   (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\schema-schematic1-watts.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\schema-schematic1-watts.sim"
+        (DisplayName "SCHEMATIC1-watts")
+        (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -65,7 +73,8 @@
      "D:\metrology\power_regulator\orcad\ru_eskd_elements")
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -79,6 +88,6 @@
         (Scroll "0 0")
         (Zoom "50")
         (Occurrence "/"))
-      (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\SCHEMA\schema.dsn")
+      (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\SCHEMA\SCHEMA.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
