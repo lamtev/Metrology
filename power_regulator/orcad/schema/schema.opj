@@ -85,7 +85,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 766 52 374")
-        (Scroll "673 0")
+        (Scroll "44 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\SCHEMA\SCHEMA.DSN")
