@@ -1,0 +1,13 @@
+* D:\METROLOGY\POWER_REGULATOR\ORCAD\SCHEMA\SCHEMA.stl written on Thu May 18 11:04:13 2017
+* by Stimulus Editor -- Serial Number: 1 -- Version 9.2
+;!Stimulus Get
+;! sin220-50 Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 60ms
+;!Yrange -400 400
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS sin220-50 SIN( 0 220 50 0 0 0 )
