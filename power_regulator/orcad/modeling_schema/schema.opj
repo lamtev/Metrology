@@ -74,11 +74,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\metrology\power_regulator\orcad\modeling_schema\schema.dsn")
-      (Path "Design Resources"
-         "D:\metrology\power_regulator\orcad\modeling_schema\schema.dsn"
-         "SCHEMATIC1")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
