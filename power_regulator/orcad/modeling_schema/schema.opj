@@ -14,10 +14,14 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\schema-schematic1-watts.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\schema-schematic1-watts.sim"
         (DisplayName "SCHEMATIC1-watts")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\schema-schematic1-volts-watts.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\schema-schematic1-volts-watts.sim"
+        (DisplayName "SCHEMATIC1-volts-watts")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
