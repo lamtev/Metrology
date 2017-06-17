@@ -14,18 +14,10 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\schema-schematic1-watts.sim"
-        (DisplayName "SCHEMATIC1-watts")
-        (Type "PSpice Profile"))
+      (ActiveProfile ".\schema-schematic1-volts-watts.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\schema-schematic1-volts-watts.sim"
         (DisplayName "SCHEMATIC1-volts-watts")
-        (Type "PSpice Profile"))
-      (ActiveProfile ".\schema-schematic1-vwworking.sim")
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\schema-schematic1-vwworking.sim"
-        (DisplayName "SCHEMATIC1-vwworking")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -92,9 +84,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1376 52 538")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1008 52 463")
         (Scroll "0 0")
-        (Zoom "100")
+        (Zoom "171")
         (Occurrence "/"))
       (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\MODELING_SCHEMA\SCHEMA.DSN")
       (Schematic "SCHEMATIC1")
