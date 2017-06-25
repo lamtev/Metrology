@@ -84,6 +84,9 @@
       (Path "Design Resources"
          "D:\metrology\power_regulator\orcad\principle_schema\schema.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\metrology\power_regulator\orcad\principle_schema\schema.dsn"
+         "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
          "D:\metrology\power_regulator\orcad\principle_schema\schema.dsn"
@@ -99,7 +102,7 @@
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1376 52 538")
         (Scroll "0 0")
-        (Zoom "100")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "D:\METROLOGY\POWER_REGULATOR\ORCAD\PRINCIPLE_SCHEMA\SCHEMA.DSN")
       (Schematic "SCHEMATIC1")
